@@ -1,0 +1,32 @@
+//-----------------------------------------------------
+//-------------— DECODER FUNCTION for TTN -------------
+//----------------------------------------------------—
+//
+//Decodes the payload (3 bytes) sent by the Arduino (= value (in volt) of the gas sensor)
+
+function Decoder(bytes, port) {
+  // Decode an uplink message from a buffer
+  // (array) of bytes to an object of fields.
+  var decoded = {};
+  
+  if (port === 1){
+    //First byte of the payload message send by the arduino is the gas alert message : 00 = no alert ; 01 = alert
+    
+    //Check if bytes[0] is a valid value (0 or 1)
+    //If not, the validator function will invalidate the payload :
+    //Invalid messages will be dropped and not published to services that have subscribed to this application’s messages.
+    if (port === 1 && (bytes[0] === 0 || bytes[0] === 1)) {
+      decoded.GasAlert = Boolean(bytes[0]);  
+    }
+    
+    //Second byte of the payload message send by the arduino is the integer part of the float value return by the gas sensor
+    //Third byte of the payload message send by the arduino is the part of the float value return by the gas sensor
+    var intPart = bytes[1];
+    var decPart = bytes[2]/100.0;
+    
+    decoded.GasSensorVoltage = intPart+decPart;
+  } 
+
+  return decoded;
+}
+

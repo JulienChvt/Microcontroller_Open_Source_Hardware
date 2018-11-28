@@ -1,0 +1,15 @@
+//--------------------------------------------------------
+//-------------- VALIDATOR FUNCTION for TTN --------------
+//--------------------------------------------------------
+//
+//Check if the first byte of the payload is a boolean
+//Return false if the decoded message is invalid and should be dropped (in this case the GasAlert field won't be display)
+
+function Validator(decoded, port) {
+
+  if (port === 1 && typeof decoded.GasAlert !== 'boolean') {
+    return false;
+  }
+
+  return true;
+}
