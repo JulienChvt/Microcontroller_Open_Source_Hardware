@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Socket_Arduino_Uno)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Uno.pretty")(options "")(descr ""))
+  (lib (name test_kiCQD)(type KiCad)(uri "U:/Windows/Bureau/5ème année/micro-controlleur/git_demo/test_kiCQD")(options "")(descr ""))
+  (lib (name Mes_empreintes)(type KiCad)(uri ${KIPRJMOD}/Mes_empreintes.pretty)(options "")(descr ""))
+)

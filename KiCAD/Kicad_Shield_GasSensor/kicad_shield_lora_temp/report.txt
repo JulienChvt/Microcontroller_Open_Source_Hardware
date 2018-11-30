@@ -1,0 +1,32 @@
+Info: Vérification du composant de la netliste "BZ1:/5BC58782:Buzzer_Beeper:MagneticBuzzer_ProSignal_ABT-410-RC".
+
+Info: Vérification du composant de la netliste "D1:/5BC5E652:LED_THT:LED_D3.0mm".
+
+Info: Vérification du composant de la netliste "J1:/5BC802E3:Connector_JST:JST_NV_B04P-NV_1x04_P5.00mm_Vertical".
+
+Info: Vérification du composant de la netliste "P1:/56D70129:Socket_Arduino_Uno:Socket_Strip_Arduino_1x08".
+
+Info: Vérification du composant de la netliste "P2:/56D70DD8:Socket_Arduino_Uno:Socket_Strip_Arduino_1x06".
+
+Info: Vérification du composant de la netliste "P3:/56D721E0:Socket_Arduino_Uno:Socket_Strip_Arduino_1x10".
+
+Info: Vérification du composant de la netliste "P4:/56D7164F:Socket_Arduino_Uno:Socket_Strip_Arduino_1x08".
+
+Info: Vérification du composant de la netliste "P5:/56D71177:Socket_Arduino_Uno:Arduino_1pin".
+
+Info: Vérification du composant de la netliste "P6:/56D71274:Socket_Arduino_Uno:Arduino_1pin".
+
+Info: Vérification du composant de la netliste "P7:/56D712A8:Socket_Arduino_Uno:Arduino_1pin".
+
+Info: Vérification du composant de la netliste "P8:/56D712DB:Socket_Arduino_Uno:Arduino_1pin".
+
+Info: Vérification du composant de la netliste "R1:/5BC6C946:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal".
+
+Info: Vérification du composant de la netliste "R2:/5BC6C9EF:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal".
+
+Info: Vérification du composant de la netliste "RV1:/5BC59E42:Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical".
+
+Info: Vérification du composant de la netliste "SW1:/5BCE12A7:Button_Switch_THT:SW_PUSH-12mm".
+
+Info: Vérification du composant de la netliste "U1:/5BC54F60:Package_DIP:DIP-8_W7.62mm_LongPads".
+
